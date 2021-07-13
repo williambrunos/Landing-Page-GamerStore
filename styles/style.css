@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+}
+header {
+  background: linear-gradient(270.47deg, #141817 25.83%, rgba(11, 184, 49, 0.881483) 91.52%, rgba(0, 161, 111, 0) 119.7%);
+}
+
+header #gamer {
+  width: 16rem;
+  height: 16rem;
+}
+
+header #enter {
+  width: 3rem;
+  height: 3rem;
+}
+
+header #register {
+  width: 3rem;
+  height: 3rem;
+}
+
+header p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f0f2f5;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+.enter-register {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  
+  margin-left: auto;
+}
+
+.enter-register p {
+  margin-right: .8rem;
+}
+
+#presentation h1 {
+  color: #f0f2f5;
+  font-weight: 900;
+  font-size: 3rem;
+
+  margin-left: 2rem;
+}
+
+.container {
+  width: min(90vw, 800px);
+  margin: auto;
+}
+
+.products {
+  padding: 1.5rem;
+  margin: 1.5rem;
+  border: 1px solid black;
+}
+
+
+
+/*
+  @media(min-width: 800px) {
+  html {
+      font-size: 87.5%;
+  }
+
+  .products_list {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+  }
+}
+*/
