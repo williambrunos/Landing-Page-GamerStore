@@ -1,70 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <header id="banner">
-    <div id="presentation">
-      <img src="./assets/gamer.svg" alt="" id="gamer">
-      <h1>Gamer Store</h1>
-      
-      <div class="enter-register">
-        <a href="">
-          <p>Entrar</p>
-        </a>
-        <a href="">
-          <img src="./assets/enter.png" alt="" id="enter">
-        </a>
-        <a href="">
-          <p>Registrar</p>
-        </a>
-        <a href="">
-          <img src="./assets/edit.png" alt="" id="register">
-        </a>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="banner">
+      <div id="presentation">
+        <img src="./assets/gamer.svg" alt="" id="gamer" />
+        <h1>Gamer Store</h1>
+
+        <div class="enter-register">
+          <a href="">
+            <p>Entrar</p>
+          </a>
+          <a href="">
+            <img src="./assets/enter.png" alt="" id="enter" />
+          </a>
+          <a href="">
+            <p>Registrar</p>
+          </a>
+          <a href="">
+            <img src="./assets/edit.png" alt="" id="register" />
+          </a>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main class="container"> 
-    <h2>Confira nossas promoções exclusivas!</h2>
+    <main class="container">
+      <h2>Confira nossas promoções exclusivas!</h2>
 
-    <div class="products_list">
-      <div id="ps4" class="products">
-        <img src="./assets/ps4.png" alt="" id="product-img">
-        <p>PS4 1TB 2 controles 2 Jogos<br><br> <span class="price">R$1400.00</span>
-        <button class="buy-btn">Comprar</button>
-      </div>
-  
-      <div id="ps5" class="products">
-        <img src="./assets/ps5.png" alt="" id="product-img">
-        <p>PS 5 1TB 2 controles <br><br><br> <span class="price">R$2500,00</span>
-        <button class="buy-btn">Comprar</button>
-      </div>
+      <section class="products_list">
+        <section id="ps4" class="products">
+          <img src="./assets/ps4.png" alt="" class="product-img" />
+          <p>
+            PS4 1TB 2 controles 2 Jogos<br /><br />
+            <span class="price">R$1400.00</span>
+            <button class="buy-btn">Comprar</button>
+          </p>
+        </section>
 
-      <div id="pc" class="products">
-        <img src="./assets/pc.png" alt="" id="product-img">
-        <p>PC i7-1195G7 32GB RAM 1TB SSD<br><br> <span class="price">R$3500.00</span>
-        <button class="buy-btn">Comprar</button>
-      </div>
+        <section id="ps5" class="products">
+          <img src="./assets/ps5.png" alt="" class="product-img" />
+          <p>
+            PS 5 1TB 2 controles <br /><br /><br />
+            <span class="price">R$2500,00</span>
+            <button class="buy-btn">Comprar</button>
+          </p>
+        </section>
 
-      <div id="switch" class="products">
-        <img src="./assets/switch.png" alt="" id="product-img">
-        <p>Nintendo Switch (Nacional) <br><br> <span class="price">R$2000.00</span>
-          <button class="buy-btn">Comprar</button>
-      </div>
-    </div>
+        <section id="pc" class="products">
+          <img src="./assets/pc.png" alt="" class="product-img" />
+          <p>
+            PC i7-1195G7 32GB RAM 1TB SSD<br /><br />
+            <span class="price">R$3500.00</span>
+            <button class="buy-btn">Comprar</button>
+          </p>
+        </section>
 
-    
-  </main>
-</body>
+        <section id="switch" class="products">
+          <img src="./assets/switch.png" alt="" class="product-img" />
+          <p>
+            Nintendo Switch (Nacional) <br /><br />
+            <span class="price">R$2000.00</span>
+            <button class="buy-btn">Comprar</button>
+          </p>
+        </section>
+      </section>
+
+      <section id="interaction">
+        <h2>Que tipo de gamer é você?</h3>
+        <p>
+          Você é do tipo que curte um bom jogo de ação no console? Ou gosta
+          mesmo é de um FPS no seu PC? ou curte mais jogar em um nintendo switch
+          ou jogos mobile?
+        </p>
+        <br>
+        <p>
+          Independente do seu gosto por games, temos os melhores preços do mercado
+          em consoles, PC's, mídias físicas e digitais!
+        </p>
+      </section>
+
+      <section id="congratulations">
+        <div id="satisfaction" class="congrats-container">
+          <img src="./assets/first_place.svg" alt="" class="congrats-img">
+          <p>Nossa loja é líder no mercado de produtos gamers.</p>
+        </div>
+
+        <div class="congrats-container">
+          <img src="./assets/satisfied.svg" alt="" class="congrats-img">
+          <p>Satisfação garantida na sua jogatina.</p>
+        </div>
+
+        <div class="congrats-container">
+          <img src="./assets/money.svg" alt="" class="congrats-img">
+          <p>Não gostou do produto? Reembolse-o.</p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

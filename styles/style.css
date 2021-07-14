@@ -104,7 +104,7 @@ header p {
   color: #5acc75;
 }
 
-#product-img {
+.product-img {
   width: 10rem;
   height: 10rem;
 }
@@ -123,6 +123,41 @@ header p {
   cursor: pointer;
 }
 
+#interaction {
+  margin-left: 1.5rem;
+}
+
+#interaction h2 {
+  margin: 1.5rem auto 1.5rem auto;
+}
+
+#interaction p {
+  font-size: 1.3333rem;
+}
+
+.congrats-container {
+  margin: 1.5rem 1.5rem;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.congrats-img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.congrats-container p {
+  font-size: 1.3333rem;
+  text-align: center;
+
+  margin: 0 1rem 1rem 1rem;
+}
+
 
 @media(min-width: 800px) {
   html {
@@ -133,5 +168,11 @@ header p {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+  }
+
+  #congratulations {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
