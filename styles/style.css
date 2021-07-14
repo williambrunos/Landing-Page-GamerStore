@@ -14,13 +14,33 @@ header {
   background: linear-gradient(270.47deg, #141817 25.83%, rgba(11, 184, 49, 0.881483) 91.52%, rgba(0, 161, 111, 0) 119.7%);
 }
 
+header h1 {
+  font-size: 2rem;
+  text-shadow: .25rem .25rem #141817;
+}
+
 #banner {
   width: 100%;
 }
 
 header #gamer {
-  width: 16rem;
-  height: 16rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+#menu {
+  width: 3rem;
+  height: 3rem;
+
+  background-color: #5ccd77;
+  padding: .5rem;
+
+  border-radius: .7rem;
+  cursor: pointer;
+}
+
+#menu:hover {
+  opacity: .8;
 }
 
 header #enter {
@@ -45,6 +65,9 @@ header p {
   align-items: center;
 
   padding: 2rem;
+  width: min(90vw, 800px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .enter-register {
@@ -157,7 +180,6 @@ header p {
 
   margin: 0 1rem 1rem 1rem;
 }
-
 
 @media(min-width: 800px) {
   html {
