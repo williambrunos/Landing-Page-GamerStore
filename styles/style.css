@@ -9,8 +9,13 @@
 body {
   background: #f0f2f5;
 }
+
 header {
   background: linear-gradient(270.47deg, #141817 25.83%, rgba(11, 184, 49, 0.881483) 91.52%, rgba(0, 161, 111, 0) 119.7%);
+}
+
+#banner {
+  width: 100%;
 }
 
 header #gamer {
@@ -66,9 +71,21 @@ header p {
   margin-left: 2rem;
 }
 
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .container {
   width: min(90vw, 800px);
   margin: auto;
+}
+
+.container h2 {
+  font-size: 2.1875rem;
+
+  margin-top: 1rem;
+  margin-left: 1.5rem;
 }
 
 .products {
@@ -77,10 +94,37 @@ header p {
   border: 1px solid black;
 }
 
+.products p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.price {
+  margin-top: 18rem;
+  color: #5acc75;
+}
+
+#product-img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.buy-btn {
+  background-color: #141817;
+  color: #5acc75;
+
+  font-size: 1.5rem;
+  padding: .1rem .5rem .1rem .5rem;
+
+  margin-top: .3rem;
+}
+
+.buy-btn:hover {
+  cursor: pointer;
+}
 
 
-/*
-  @media(min-width: 800px) {
+@media(min-width: 800px) {
   html {
       font-size: 87.5%;
   }
@@ -88,8 +132,6 @@ header p {
   .products_list {
       width: 100%;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
   }
 }
-*/
