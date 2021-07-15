@@ -238,6 +238,8 @@ input, select, textarea, button {
   padding: .2rem;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+  cursor: pointer;
 }
 
 .submit-btn:hover {
