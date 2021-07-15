@@ -15,7 +15,7 @@ header {
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-shadow: .25rem .25rem #141817;
 }
 
@@ -89,7 +89,7 @@ header p {
 #presentation h1 {
   color: #f0f2f5;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 1.6rem;
 
   margin-left: 2rem;
 }
@@ -156,6 +156,7 @@ header p {
 
 #interaction p {
   font-size: 1.3333rem;
+  margin: 0 1.5rem 0 0;
 }
 
 .congrats-container {
@@ -183,11 +184,65 @@ header p {
 
 .lead-geting p {
   font-size: 1.3333rem;
-  margin-left: 1.5rem;
+  margin: 0 1.5rem;
+}
+
+fieldset {
+  border: 2.5px solid #46a05b;
+}
+
+fieldset #form-content{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #lead-form {
-  margin: 1.5rem 0 1.5rem 1.5rem;
+  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+input, select, textarea, button {
+  border-radius: 5px;
+}
+
+.field {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.field label {
+  margin-bottom: .4rem;
+  display: block;
+  color: #46a05b;
+}
+
+.field input[type="text"], .field input[type="email"], .field select, .field textarea {
+  padding: 0.2rem;
+  border: 2.5px solid #46a05b;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+
+  width: 100%;
+}
+
+.field select option {
+  padding-right: 1rem;
+}
+
+.submit-btn {
+  font-size: 1rem;
+  background-color: #46a05b;
+  border: 0;
+  margin-bottom: 1rem;
+  color: #ffff;
+  padding: .2rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.submit-btn:hover {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
 }
 
 @media(min-width: 800px) {
@@ -205,5 +260,9 @@ header p {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  #presentation h1 {
+    font-size: 3rem;
   }
 }
