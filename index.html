@@ -13,7 +13,7 @@
     />
 
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Document</title>
+    <title>Gamer$tore</title>
   </head>
   <body>
     <header id="banner">
@@ -96,6 +96,109 @@
           <img src="./assets/money.svg" alt="" class="congrats-img">
           <p>Não gostou do produto? Reembolse-o.</p>
         </div>
+      </section>
+
+      <section class="lead-geting">
+        <h2>Gostou dos nossos produtos?</h2>
+        <br>
+        <p>
+          Se você gostou dos nossos produtos, considere virar um cliente
+          oficial e preencha o formulário para ficar por dentro das promoções
+          exclusivas da nossa loja!
+        </p>
+
+        <form action="" id="lead-form">
+          <fieldset>
+
+            <div class="field">
+              <label for="name"><strong>Nome</strong></label>
+              <input type="text" name="name" id="name" placeholder="Nome Completo" required>
+            </div>
+
+            <div class="field">
+              <label for="email"><strong>E-mail</strong></label>
+              <input type="email" name="email" id="email" placeholder="e-mail" required>
+            </div>
+
+            <div class="field">
+              <label for="gaming-option"><strong>Em que plataforma você mais gosta de jogar?</strong></label>
+              <label for="console">
+                <input 
+                  type="radio" 
+                  name="gaming-option" 
+                  id="console" 
+                  value="console"
+                  checked
+                >Console
+              </label>
+
+              <label for="PC">
+                <input 
+                  type="radio"
+                  name="gaming-option" 
+                  id="PC"
+                  value="PC"
+                >PC
+              </label>
+
+              <label for="mobile">
+                <input 
+                  type="radio" 
+                  name="gaming-option" 
+                  id="mobile" 
+                  value="mobile"
+                >Mobile
+              </label>
+            </div>
+
+            <div class="field">
+              <label for="state-select"><strong>De que local você joga?</strong></label>
+              <select name="state-select" id="state-select">
+                <option value="" selected disabled>Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label><strong>Conte um pouco do que achou dos nossos serviços</strong></label>
+              <textarea name="experience" 
+                id="experience" 
+                cols="30"
+                rows="10" 
+                placeholder="Conte-nos sua experiência com nossa loja :)"
+                >
+              </textarea>
+            </div>
+
+            <button class="submit-btn" type="submit">Concluído</button>
+          </fieldset>
+        </form>
       </section>
     </main>
   </body>

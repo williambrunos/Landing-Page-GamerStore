@@ -114,7 +114,7 @@ header p {
 .products {
   padding: 1.5rem;
   margin: 1.5rem;
-  border: 1px solid black;
+  border: 2.5px solid #5ccd77;
 }
 
 .products p {
@@ -160,7 +160,7 @@ header p {
 
 .congrats-container {
   margin: 1.5rem 1.5rem;
-  border: 1px solid black;
+  border: 2.5px solid #5ccd77;
 
   display: flex;
   flex-direction: column;
@@ -179,6 +179,15 @@ header p {
   text-align: center;
 
   margin: 0 1rem 1rem 1rem;
+}
+
+.lead-geting p {
+  font-size: 1.3333rem;
+  margin-left: 1.5rem;
+}
+
+#lead-form {
+  margin: 1.5rem 0 1.5rem 1.5rem;
 }
 
 @media(min-width: 800px) {
