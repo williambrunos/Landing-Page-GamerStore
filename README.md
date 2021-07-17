@@ -29,4 +29,4 @@ Você pode visualizar o projeto crescendo nestes links:
 
 [Landing-Page GitHub Pages](https://williambrunos.github.io/Landing-Page-GamerStore/)
 
-´[Landing-Page Netlify](https://hopeful-goldstine-e1a914.netlify.app/);
+[Landing-Page Netlify](https://hopeful-goldstine-e1a914.netlify.app/);
