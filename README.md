@@ -25,6 +25,8 @@ os dados persistidos não são perdidos. Mapeamento de dados no estilo chave: va
 
 ## Crescimento
 
-Você pode visualizar o projeto crescendo neste link: 
+Você pode visualizar o projeto crescendo nestes links: 
 
-[Landing-Page](https://williambrunos.github.io/Landing-Page-GamerStore/)
+[Landing-Page GitHub Pages](https://williambrunos.github.io/Landing-Page-GamerStore/)
+
+´[Landing-Page Netlify](https://hopeful-goldstine-e1a914.netlify.app/);
