@@ -18,8 +18,7 @@ addLeadForm.addEventListener("submit", (e) => {
     name: inputNameValue,
     email: inputEmailValue,
     estado: inputStateValue,
-    // Como consertar o bug do textarea começar lá na frente?
-    experiência: experienceText === "                " ? "Sem comentários":experienceText,
+    experiência: experienceText === "" ? "Sem comentários":experienceText,
   };
 
   // Verifica se o client a ser cadastrado já existe no array de clients, utilizando
