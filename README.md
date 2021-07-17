@@ -18,6 +18,10 @@ Os dados preenchidos no formulário para capitação de leads são salvos no loc
 mas tenho consciência que o ideal seria salvá-los e tratá-los no backend. No entanto,
 é apenas um desafio de front-end.
 
+## LocalStorage
+
+Forma de salvar dados no navegador do usuário. Ao fechar ou recarregar a página,
+os dados persistidos não são perdidos. Mapeamento de dados no estilo chave: valor.
 ## Crescimento
 
 Você pode visualizar o projeto crescendo neste link: 
