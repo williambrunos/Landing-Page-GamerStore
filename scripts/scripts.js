@@ -11,13 +11,13 @@ addLeadForm.addEventListener("submit", (e) => {
   // Retorna a sigla de cada estado
   const inputStateValue = document.querySelector("#state-select").value;
   const experienceText = document.querySelector("#experience").value;
-  // Como conseguir o valo marcado nos radio buttons?
-
-  // Criação de um objeto client a ser adicionado no array clients
+  const inputGamingOption = document.querySelector('input[name="gaming-option"]:checked');
+  
   const client = {
-    name: inputNameValue,
+    nome: inputNameValue,
     email: inputEmailValue,
     estado: inputStateValue,
+    plataforma: inputGamingOption !== null ? inputGamingOption.value : "Sem plataforma",
     experiência: experienceText === "" ? "Sem comentários":experienceText,
   };
 
