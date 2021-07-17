@@ -28,6 +28,7 @@ os dados persistidos não são perdidos. Mapeamento de dados no estilo chave: va
 Sim, temos bugs, óbvio hehehhe. Não consigo pegar o valor do html que está com
 a caixa checked no forms na parte das plataformas. Não consigo fazer o textarea
 do forms iniciar no início, ele possui uma tabulação horizontal.
+
 ## Crescimento
 
 Você pode visualizar o projeto crescendo neste link: 
