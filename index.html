@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,58 +17,57 @@
     <title>GamerStore</title>
   </head>
   <body>
-    <header id="banner">
-      <div id="presentation">
-        <img src="./assets/gamer.svg" alt="" id="gamer" />
+    <header id="banner" role="banner">
+      <div id="presentation" role="presentation">
+        <img src="./assets/gamer.svg" alt="Imagem de Gamer" id="gamer" role="img">
         <h1>Gamer Store</h1>
-
-        <div class="enter-register">
-          <a href=""><img src="./assets/menu.svg" alt="" id="menu"></a>
+        <div class="enter-register" role="register client">
+          <a href="" alt="link para a própria página"><img src="./assets/menu.svg" alt="Imagem de menu" id="menu"></a>
         </div>
       </div>
     </header>
 
-    <main class="container">
+    <main class="container" role="main">
       <h2>Confira nossas promoções exclusivas!</h2>
-      <section class="products_list">
-        <section id="ps4" class="products">
-          <img src="./assets/ps4.png" alt="" class="product-img" />
+      <section class="products_list" role="presentation">
+        <section id="ps4" class="products" role="container">
+          <img src="./assets/ps4.png" alt="Imagem de PS4" class="product-img" role="img">
           <p>
             PS4 1TB 2 controles 2 Jogos<br /><br />
             <span class="price">R$1400.00</span>
-            <button class="buy-btn">Comprar</button>
+            <button class="buy-btn" alt="Botão de comprar" role="button">Comprar</button>
           </p>
         </section>
 
-        <section id="ps5" class="products">
-          <img src="./assets/ps5.png" alt="" class="product-img" />
+        <section id="ps5" class="products" role="presentation">
+          <img src="./assets/ps5.png" alt="Imagem de PS5" class="product-img" role="img">
           <p>
             PS 5 1TB 2 controles <br /><br /><br />
             <span class="price">R$2500,00</span>
-            <button class="buy-btn">Comprar</button>
+            <button class="buy-btn" alt="Botão de comprar" role="button">Comprar</button>
           </p>
         </section>
 
-        <section id="pc" class="products">
-          <img src="./assets/pc.png" alt="" class="product-img" />
+        <section id="pc" class="products" role="presentation">
+          <img src="./assets/pc.png" alt="Imagem de PC" class="product-img" role="img">
           <p>
             PC i7-1195G7 32GB RAM 1TB SSD<br /><br />
             <span class="price">R$3500.00</span>
-            <button class="buy-btn">Comprar</button>
+            <button class="buy-btn" alt="Botão de comprar" role="button">Comprar</button>
           </p>
         </section>
 
-        <section id="switch" class="products">
-          <img src="./assets/switch.png" alt="" class="product-img" />
+        <section id="switch" class="products" role="presentation">
+          <img src="./assets/switch.png" alt="Imagem de nintendo switch" class="product-img" role="img">
           <p>
             Nintendo Switch (Nacional) <br /><br />
             <span class="price">R$2000.00</span>
-            <button class="buy-btn">Comprar</button>
+            <button class="buy-btn" alt="Botão de comprar" role="button">Comprar</button>
           </p>
         </section>
       </section>
 
-      <section id="interaction">
+      <section id="interaction" role="interaction">
         <h2>Que tipo de gamer é você?</h3>
         <p>
           Você é do tipo que curte um bom jogo de ação no console, gosta
@@ -84,26 +83,26 @@
         <h2>Por que comprar em nossa loja?</h2>
       </section>
 
-      <section id="congratulations">
+      <section id="congratulations" role="interaction">
         <div id="satisfaction" class="congrats-container">
-          <img src="./assets/first_place.svg" alt="" class="congrats-img">
+          <img src="./assets/first_place.svg" alt="Líder no mercado" class="congrats-img" role="img">
           <p>Nossa loja é líder no mercado de produtos gamers.</p>
         </div>
 
         <div class="congrats-container">
-          <img src="./assets/satisfied.svg" alt="" class="congrats-img">
+          <img src="./assets/satisfied.svg" alt="Satisfação máxima" class="congrats-img" role="img">
           <p>Satisfação garantida na sua jogatina.</p>
         </div>
 
         <div class="congrats-container">
-          <img src="./assets/money.svg" alt="" class="congrats-img">
+          <img src="./assets/money.svg" alt="Reembolso garantido" class="congrats-img" role="img">
           <p>Não gostou do produto? Reembolse-o.</p>
         </div>
       </section>
 
-      <section class="clients-experiences">
+      <section class="clients-experiences" role="experience">
         <div class="experiences-container">
-          <img src="./assets/happy_woman.jpg" alt="Mulher feliz">
+          <img src="./assets/happy_woman.jpg" alt="Mulher feliz" role="img">
           <div class="experience-content">
             <h1>Juliana Torres</h1>
             <br>
@@ -114,8 +113,8 @@
           </div>
         </div>
 
-        <div class="experiences-container">
-          <img src="./assets/happy_guy.jpg" alt="Homem feliz">
+        <div class="experiences-container" role="experience">
+          <img src="./assets/happy_guy.jpg" alt="Homem feliz" role="img">
           <div class="experience-content">
             <h1>Mauro Ribeiro</h1>
             <br>
@@ -127,7 +126,7 @@
         </div>
       </section>
 
-      <section class="lead-geting">
+      <section class="lead-geting" role="region">
         <h2>Gostou dos nossos produtos?</h2>
         <br>
         <p>
@@ -136,22 +135,22 @@
           virar cliente? Preencha o formulário abaixo!
         </p>
 
-        <form action="" id="lead-form">
+        <form action="" id="lead-form" role="form">
           <fieldset>
 
             <div id="form-content">
               <div class="field">
-                <label for="name"><strong>Nome</strong></label>
-                <input type="text" name="name" id="name" placeholder="Nome Completo" required>
+                <label for="name" role="label"><strong>Nome</strong></label>
+                <input type="text" name="name" id="name" placeholder="Nome Completo" required role="input">
               </div>
   
               <div class="field">
-                <label for="email"><strong>E-mail</strong></label>
-                <input type="email" name="email" id="email" placeholder="e-mail" required>
+                <label for="email" role="label"><strong>E-mail</strong></label>
+                <input type="email" name="email" id="email" placeholder="e-mail" required role="input">
               </div>
   
               <div class="field" id="plataforms">
-                <label for="gaming-option"><strong>Em que plataforma você mais gosta de jogar?</strong></label>
+                <label for="gaming-option" role="label"><strong>Em que plataforma você mais gosta de jogar?</strong></label>
                 <label for="console">
                   <input 
                     type="radio" 
@@ -159,6 +158,7 @@
                     id="console" 
                     class="plataform"
                     value="console"
+                    role="radio"
                   >Console
                 </label>
   
@@ -169,6 +169,7 @@
                     id="PC"
                     class="plataform"
                     value="PC"
+                    role="radio"
                   >PC
                 </label>
   
@@ -179,45 +180,46 @@
                     id="mobile" 
                     class="plataform"
                     value="mobile"
+                    role="radio"
                   >Mobile
                 </label>
               </div>
   
               <div class="field">
-                <label for="state-select"><strong>De que local você joga?</strong></label>
-                <select name="state-select" id="state-select">
+                <label for="state-select" role="label"><strong>De que local você joga?</strong></label>
+                <select name="state-select" id="state-select" role="select">
                   <option value="" selected disabled>Selecione</option>
-                  <option value="AC">Acre</option>
-                  <option value="AL">Alagoas</option>
-                  <option value="AP">Amapá</option>
-                  <option value="AM">Amazonas</option>
-                  <option value="BA">Bahia</option>
-                  <option value="CE">Ceará</option>
-                  <option value="DF">Distrito Federal</option>
-                  <option value="ES">Espírito Santo</option>
-                  <option value="GO">Goiás</option>
-                  <option value="MA">Maranhão</option>
-                  <option value="MT">Mato Grosso</option>
-                  <option value="MS">Mato Grosso do Sul</option>
-                  <option value="MG">Minas Gerais</option>
-                  <option value="PA">Pará</option>
-                  <option value="PB">Paraíba</option>
-                  <option value="PR">Paraná</option>
-                  <option value="PE">Pernambuco</option>
-                  <option value="PI">Piauí</option>
-                  <option value="RJ">Rio de Janeiro</option>
-                  <option value="RN">Rio Grande do Norte</option>
-                  <option value="RS">Rio Grande do Sul</option>
-                  <option value="RO">Rondônia</option>
-                  <option value="RR">Roraima</option>
-                  <option value="SC">Santa Catarina</option>
-                  <option value="SP">São Paulo</option>
-                  <option value="SE">Sergipe</option>
-                  <option value="TO">Tocantins</option>
+                  <option value="AC" role="option">Acre</option>
+                  <option value="AL" role="option">Alagoas</option>
+                  <option value="AP" role="option">Amapá</option>
+                  <option value="AM" role="option">Amazonas</option>
+                  <option value="BA" role="option">Bahia</option>
+                  <option value="CE" role="option">Ceará</option>
+                  <option value="DF" role="option">Distrito Federal</option>
+                  <option value="ES" role="option">Espírito Santo</option>
+                  <option value="GO" role="option">Goiás</option>
+                  <option value="MA" role="option">Maranhão</option>
+                  <option value="MT" role="option">Mato Grosso</option>
+                  <option value="MS" role="option">Mato Grosso do Sul</option>
+                  <option value="MG" role="option">Minas Gerais</option>
+                  <option value="PA" role="option">Pará</option>
+                  <option value="PB" role="option">Paraíba</option>
+                  <option value="PR" role="option">Paraná</option>
+                  <option value="PE" role="option">Pernambuco</option>
+                  <option value="PI" role="option">Piauí</option>
+                  <option value="RJ" role="option">Rio de Janeiro</option>
+                  <option value="RN" role="option">Rio Grande do Norte</option>
+                  <option value="RS" role="option">Rio Grande do Sul</option>
+                  <option value="RO" role="option">Rondônia</option>
+                  <option value="RR" role="option">Roraima</option>
+                  <option value="SC" role="option">Santa Catarina</option>
+                  <option value="SP" role="option">São Paulo</option>
+                  <option value="SE" role="option">Sergipe</option>
+                  <option value="TO" role="option">Tocantins</option>
                 </select>
               </div>
   
-              <div class="field">
+              <div class="field" role="dialog">
                 <label><strong>Conte um pouco do que achou dos nossos serviços</strong></label>
                 <textarea name="experience" 
                   id="experience" 
@@ -225,10 +227,11 @@
                   cols="30"
                   rows="10" 
                   placeholder="Conte-nos sua experiência com nossa loja :)"
+                  role="textbox"
                   ></textarea>
               </div>
   
-              <button class="submit-btn" type="submit">Concluído</button>
+              <button class="submit-btn" type="submit" role="button">Concluído</button>
             </div>
           </fieldset>
         </form>
