@@ -24,8 +24,8 @@ header h1 {
 }
 
 header #gamer {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 #menu {
@@ -254,6 +254,11 @@ input, select, textarea, button {
 @media(min-width: 800px) {
   html {
       font-size: 87.5%;
+  }
+
+  header #gamer {
+    width: 10rem;
+    height: 10rem;
   }
 
   .products_list {
