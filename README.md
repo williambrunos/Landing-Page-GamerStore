@@ -22,6 +22,12 @@ mas tenho consciência que o ideal seria salvá-los e tratá-los no backend. No 
 
 Forma de salvar dados no navegador do usuário. Ao fechar ou recarregar a página,
 os dados persistidos não são perdidos. Mapeamento de dados no estilo chave: valor.
+
+## Bugs
+
+Sim, temos bugs, óbvio hehehhe. Não consigo pegar o valor do html que está com
+a caixa checked no forms na parte das plataformas. Não consigo fazer o textarea
+do forms iniciar no início, ele possui uma tabulação horizontal.
 ## Crescimento
 
 Você pode visualizar o projeto crescendo neste link: 
