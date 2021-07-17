@@ -29,8 +29,8 @@ header #gamer {
 }
 
 #menu {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
 
   background-color: #5ccd77;
   padding: .5rem;
@@ -186,6 +186,33 @@ header p {
   text-align: center;
 
   margin: 0 1rem 1rem 1rem;
+}
+
+.experiences-container {
+  margin: 1.5rem;
+  padding: 1rem;
+
+  display: flex;
+
+  border: 2.5px solid #5ccd77;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.experiences-container img {
+  width: 15%;
+  height: 10%;
+
+  border-radius: 2rem;
+}
+
+.experiences-container h1 {
+  margin-left: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.experiences-container p {
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .lead-geting p {
